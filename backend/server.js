@@ -8,9 +8,9 @@ mongoose.connect("mongodb+srv://siddhantjanbandhu18:LiGJ96tyGApJt8tO@cluster0.2q
   useCreateIndex: true,
 })
 
-const io = require("socket.io")(https://google-docs-clone-main.vercel.app/, {
+const io = require("socket.io")(3001, {
   cors: {
-    origin: "https://google-docs-clone-main-27i2.vercel.app/documents/877a3549-4147-4e7a-8573-94c4ce998a72",
+    origin: "http://localhost:3000",
     methods: ["GET", "POST"],
     //   origin: [
     //     "https://library-management-app-brown.vercel.app", 
